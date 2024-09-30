@@ -1,5 +1,5 @@
 FROM python
-WORKDIR /finalproject_v1_2_labelencoding
+WORKDIR /Train_linear
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
