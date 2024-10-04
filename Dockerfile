@@ -1,6 +1,6 @@
 FROM python
-WORKDIR /test_random_forest
+WORKDIR /Train_linear
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-CMD ["python", "train_random_forest.py"]
+CMD ["python", "Train_linear.py"]
